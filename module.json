@@ -1,0 +1,45 @@
+{
+	"name": "CoC7ja",
+	"title": "新クトゥルフ日本語辞典登録",
+	"description": "新クトゥルフの日本語辞典の置き換え。このモッドを使用するには必ずモッドを適用してから言語を変更してください",
+	"version": "0.1.0",
+	"author": "Admiral Nyar",
+	"languages": [],
+	"scripts": ["./main.js"],
+  "styles" : ],
+  "packs": [
+		{
+			"label": "技能",
+			"entity": "Item",
+			"name": "skills",
+			"path": "./packs/skills.db",
+			"system": "CoC7"
+		},
+		{
+			"label": "武器",
+			"entity": "Item",
+			"name": "weapons",
+			"path": "./packs/weapons.db",
+			"system": "CoC7"
+		},
+		{
+			"label": "アクター例",
+			"entity": "Actor",
+			"name": "examples",
+			"path": "./packs/examples.db",
+			"system": "CoC7"
+		},
+		{
+			"label": "各種表",
+			"entity": "RollTable",
+			"name": "tables",
+			"path": "./packs/tables.db",
+			"system": "CoC7"
+		}
+  ],
+	"url" : "https://github.com/AdmiralNyar/CoC7ja",
+	"download" : "",
+	"manifest" : "",
+  "minimumCoreVersion": "0.5.5",
+  "compatibleCoreVersion": "0.6.5"
+}
