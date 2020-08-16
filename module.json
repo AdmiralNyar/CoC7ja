@@ -6,7 +6,7 @@
 	"author": "Admiral Nyar",
 	"languages": [],
 	"scripts": ["./main.js"],
-  "styles" : ],
+  "styles" : [],
   "packs": [
 		{
 			"label": "技能",
