@@ -18,8 +18,11 @@
 
 ### アイコン
 <https://game-icons.net>　様よりいただきました。
+
 クリエイティブコモンズ3.0 BYで使用しているものです。
+
 色々なアイコンで構成されてますので、以下に本モッドに含まれるアイコンの製作者を列挙させていただきます。
+
 Lorc, Delapouite, John Colburn, Felbrigg, John Redman, Carl Olsen, Sbed, PriorBlue, Willdabeast, Viscious Speed,
 Lord Berandas, Irongamer, HeavenlyDog, Lucas, Faithtoken, Skoll, Andy Meneely, Cathelineau, Kier Heyl,
 Aussiesim,Sparker, Zeromancer, Rihlsul, Quoting, Guard13007, DarkZaitzev, SpencerDub, GeneralAce135,
