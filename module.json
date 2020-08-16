@@ -38,7 +38,7 @@
 		}
   ],
 	"url" : "https://github.com/AdmiralNyar/CoC7ja",
-	"download" : "https://github.com/AdmiralNyar/CoC7ja/archive.master.zip",
+	"download" : "https://github.com/AdmiralNyar/CoC7ja/archive/master.zip",
 	"manifest" : "https://github.com/AdmiralNyar/CoC7ja/master/module.json",
   "minimumCoreVersion": "0.5.5",
   "compatibleCoreVersion": "0.6.5"
