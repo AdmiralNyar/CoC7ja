@@ -35,6 +35,20 @@
 			"name": "tables",
 			"path": "./packs/tables.db",
 			"system": "CoC7"
+		},
+		{
+			"label": "呪文",
+			"entity": "Item",
+			"name": "spells",
+			"path": "./packs/spells.db",
+			"system": "CoC7"
+		},
+		{
+			"label": "魔導書",
+			"entity": "Item",
+			"name": "books",
+			"path": "./packs/books.db",
+			"system": "CoC7"
 		}
   ],
 	"url" : "https://github.com/AdmiralNyar/CoC7ja",
