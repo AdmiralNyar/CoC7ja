@@ -2,7 +2,7 @@
 	"name": "CoC7ja",
 	"title": "新クトゥルフ日本語辞典登録",
 	"description": "新クトゥルフの日本語辞典の置き換え。このモッドを使用するには必ずモッドを適用してから言語を変更してください",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"author": "Admiral Nyar",
 	"languages": [],
 	"scripts": ["./main.js"],
