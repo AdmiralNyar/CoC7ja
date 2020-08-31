@@ -1,7 +1,7 @@
 # Call of Cthulhu 7th Edition 日本語化モッド
 
 * **製作者**: Admiral Nyar（[ツイッター](https://twitter.com/kruschtya)）
-* **mod作成協力者**：
+* **mod作成協力者**：Brother Sharp (ディスコード：Brother Sharp#6921)、trpg_yoshi ([@blhsrwznrghfzpr](https://github.com/blhsrwznrghfzpr))
 * **対応CoC7バージョン**: 0.2.6
 * **modバージョン**: 0.1.0
 
