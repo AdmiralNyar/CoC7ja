@@ -49,6 +49,13 @@
 			"name": "books",
 			"path": "./packs/books.db",
 			"system": "CoC7"
+		},
+		{
+			"label": "サポートマクロ",
+			"entity": "Macro",
+			"name": "support",
+			"path": "./packs/support.db",
+			"system": "CoC7"
 		}
   ],
 	"url" : "https://github.com/AdmiralNyar/CoC7ja",
