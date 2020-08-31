@@ -2,8 +2,8 @@
 
 * **製作者**: Admiral Nyar（[ツイッター](https://twitter.com/kruschtya)）
 * **mod作成協力者**：
-* **対応CoC7バージョン**: 0.3.1
-* **modバージョン**: 0.2.0
+* **対応CoC7バージョン**: 0.2.6
+* **modバージョン**: 0.1.0
 
 ### インストール方法
 
@@ -16,3 +16,14 @@
 
 このモッドを使用するには先にモッドとしてインストールし、ゲーム内でモッドを有効化する必要があります。
 
+### アイコン
+<https://game-icons.net>　様よりいただきました。
+
+クリエイティブコモンズ3.0 BYで使用しているものです。
+
+色々なアイコンで構成されてますので、以下に本モッドに含まれるアイコンの製作者を列挙させていただきます。
+
+Lorc, Delapouite, John Colburn, Felbrigg, John Redman, Carl Olsen, Sbed, PriorBlue, Willdabeast, Viscious Speed,
+Lord Berandas, Irongamer, HeavenlyDog, Lucas, Faithtoken, Skoll, Andy Meneely, Cathelineau, Kier Heyl,
+Aussiesim,Sparker, Zeromancer, Rihlsul, Quoting, Guard13007, DarkZaitzev, SpencerDub, GeneralAce135,
+Zajkonur, Catsu, Starseeker, Pepijn Poolman, Pierre Leducq
