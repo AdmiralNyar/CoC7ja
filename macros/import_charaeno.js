@@ -167,7 +167,7 @@ const addSkills = async (actor, data, list) => {
           specialization = "";
           name = skill.name;
         } else if (m[1] === "母国語") {
-          specialization = "";
+          specialization = "言語";
           name = "母国語";
         } else if (m[1] === "ほかの言語") {
           specialization = "言語";
