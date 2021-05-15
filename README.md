@@ -3,7 +3,7 @@
 * **製作者**: Admiral Nyar（[ツイッター](https://twitter.com/kruschtya)）
 * **mod作成協力者**：Brother Sharp (ディスコード：Brother Sharp#6921)、trpg_yoshi ([@blhsrwznrghfzpr](https://github.com/blhsrwznrghfzpr))
 * **対応CoC7バージョン**: 0.5.7
-* **modバージョン**: 0.2.2
+* **modバージョン**: 0.2.3
 
 ### インストール方法
 
