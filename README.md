@@ -2,8 +2,8 @@
 
 * **製作者**: Admiral Nyar（[ツイッター](https://twitter.com/kruschtya)）
 * **mod作成協力者**：Brother Sharp (ディスコード：Brother Sharp#6921)、trpg_yoshi ([@blhsrwznrghfzpr](https://github.com/blhsrwznrghfzpr))
-* **対応CoC7バージョン**: 0.5.7
-* **modバージョン**: 0.2.3
+* **対応CoC7バージョン**: 0.6.9
+* **modバージョン**: 0.2.4
 
 ### インストール方法
 
@@ -15,6 +15,9 @@
 新クトゥルフシステム用の辞典が追加されます。追加機能として既存の英語の辞典を消して日本語版のみを見えるようにしてくれます。
 
 このモッドを使用するには先にモッドとしてインストールし、ゲーム内でモッドを有効化する必要があります。
+
+本作は、「Chaosium inc.」が権利を有する『Call of Cthulhu 7th edition』のシステムと紐付けて利用する二次創作物です。
+© Chaosium inc.
 
 ### アイコン
 <https://game-icons.net>　様よりいただきました。
