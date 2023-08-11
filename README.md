@@ -1,17 +1,18 @@
 # Call of Cthulhu 7th Edition 日本語化モッド
 
-* **製作者**: Admiral Nyar（[ツイッター](https://twitter.com/kruschtya)）
-* **mod作成協力者**：Brother Sharp (ディスコード：Brother Sharp#6921)、trpg_yoshi ([@blhsrwznrghfzpr](https://github.com/blhsrwznrghfzpr))
-* **対応CoC7バージョン**: 0.6.9
-* **modバージョン**: 0.2.4
+- **製作者**: Admiral Nyar（[ツイッター](https://twitter.com/kruschtya)）
+- **mod 作成協力者**：Brother Sharp (ディスコード：Brother Sharp#6921)、trpg_yoshi ([@blhsrwznrghfzpr](https://github.com/blhsrwznrghfzpr))
+- **対応 CoC7 バージョン**: 0.10.5
+- **mod バージョン**: 0.3.0
 
 ### インストール方法
 
 以下のリンクをモッドとしてインストールしてください。
 
-* リンク： https://raw.githubusercontent.com/AdmiralNyar/CoC7ja/master/module.json
+- リンク： https://raw.githubusercontent.com/AdmiralNyar/CoC7ja/master/module.json
 
 ### 内容
+
 新クトゥルフシステム用の辞典が追加されます。追加機能として既存の英語の辞典を消して日本語版のみを見えるようにしてくれます。
 
 このモッドを使用するには先にモッドとしてインストールし、ゲーム内でモッドを有効化する必要があります。
@@ -20,9 +21,10 @@
 © Chaosium inc.
 
 ### アイコン
+
 <https://game-icons.net>　様よりいただきました。
 
-クリエイティブコモンズ3.0 BYで使用しているものです。
+クリエイティブコモンズ 3.0 BY で使用しているものです。
 
 色々なアイコンで構成されてますので、以下に本モッドに含まれるアイコンの製作者を列挙させていただきます。
 
