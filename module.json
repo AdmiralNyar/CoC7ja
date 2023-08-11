@@ -2,65 +2,78 @@
 	"name": "CoC7ja",
 	"title": "新クトゥルフ日本語辞典登録",
 	"description": "新クトゥルフの日本語辞典の置き換え。このモッドを使用するには必ずモッドを適用してから言語を変更してください",
-	"version": "0.2.5",
+	"version": "0.3.0",
 	"author": "Admiral Nyar",
 	"languages": [],
-	"scripts": ["./main.js"],
+	"scripts": ["main.js"],
   "styles" : [],
   "packs": [
 		{
+			"label": "マクロ",
+			"type": "Macro",
+			"name": "macros",
+			"path": "packs/macros",
+			"system": "CoC7",
+			"flags": {},
+		    "ownership": {
+       			"PLAYER": "OBSERVER",
+        		"ASSISTANT": "OWNER"
+		    }
+		},
+		{
 			"label": "技能",
-			"entity": "Item",
-			"name": "skills",
-			"path": "./packs/skills.db",
-			"system": "CoC7"
-		},
-		{
-			"label": "武器",
-			"entity": "Item",
-			"name": "weapons",
-			"path": "./packs/weapons.db",
-			"system": "CoC7"
-		},
-		{
-			"label": "アクター例",
-			"entity": "Actor",
-			"name": "examples",
-			"path": "./packs/examples.db",
-			"system": "CoC7"
+			"type": "Item",
+			"name": "skill",
+			"path": "packs/skills",
+			"system": "CoC7",
+			"flags": {},
+		    "ownership": {
+       			"PLAYER": "OBSERVER",
+        		"ASSISTANT": "OWNER"
+		    }
 		},
 		{
 			"label": "各種表",
-			"entity": "RollTable",
+			"type": "RollTable",
 			"name": "tables",
-			"path": "./packs/tables.db",
-			"system": "CoC7"
+			"path": "packs/tables",
+			"system": "CoC7",
+			"flags": {},
+		    "ownership": {
+       			"PLAYER": "OBSERVER",
+        		"ASSISTANT": "OWNER"
+		    }
 		},
 		{
-			"label": "呪文",
-			"entity": "Item",
-			"name": "spells",
-			"path": "./packs/spells.db",
-			"system": "CoC7"
+			"label": "初期設定",
+			"type": "Item",
+			"name": "setup",
+			"path": "packs/setup",
+			"system": "CoC7",
+			"flags": {},
+		    "ownership": {
+       			"PLAYER": "OBSERVER",
+        		"ASSISTANT": "OWNER"
+		    }
 		},
 		{
-			"label": "魔導書",
-			"entity": "Item",
-			"name": "books",
-			"path": "./packs/books.db",
-			"system": "CoC7"
-		},
-		{
-			"label": "サポートマクロ",
-			"entity": "Macro",
-			"name": "support",
-			"path": "./packs/support.db",
-			"system": "CoC7"
+			"label": "一括ロール要求",
+			"type": "JournalEntry",
+			"name": "rollreq",
+			"path": "packs/rollreq",
+			"system": "CoC7",
+			"flags": {},
+		    "ownership": {
+       			"PLAYER": "OBSERVER",
+        		"ASSISTANT": "OWNER"
+		    }
 		}
   ],
 	"url" : "https://github.com/AdmiralNyar/CoC7ja",
 	"download" : "https://github.com/AdmiralNyar/CoC7ja/archive/master.zip",
 	"manifest" : "https://raw.githubusercontent.com/AdmiralNyar/CoC7ja/master/module.json",
-  "minimumCoreVersion": "0.5.5",
-  "compatibleCoreVersion": "0.8.9"
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  }
 }

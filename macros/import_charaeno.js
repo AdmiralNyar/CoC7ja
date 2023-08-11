@@ -1,7 +1,7 @@
 /**
  * 実装した際のバージョン
- * - Foundry VTT 0.7.9
- * - Call of Cthulhu 7th edition (Unofficial) 0.5.7 https://github.com/HavlockV/CoC7-FoundryVTT/
+ * - Foundry VTT 0.11.307
+ * - Call of Cthulhu 7th edition 0.10.5 https://github.com/HavlockV/CoC7-FoundryVTT/
  */
 Dialog.prompt({
   title: "Charaeno からインポート",
@@ -9,7 +9,7 @@ Dialog.prompt({
     キャラクターシートのURL:<br/>
     <input
         id='charaeno-url'
-        placeholder='https://charaeno.sakasin.net/7th/id'
+        placeholder='https://charaeno.com/7th/id'
         style='width: 100%'
     />
 `,
@@ -23,8 +23,11 @@ Dialog.prompt({
       return;
     }
     try {
+
       const response = await fetch(api);
+
       const data = await response.json();
+
       await createCharacter(data, url);
       ui.notifications.info(
         "インポートに成功しました。アクター一覧を確認してください。"
@@ -48,22 +51,22 @@ const parseInput = (input) => {
     return { error: "入力されたURLが正しくありません。" };
   }
   if (
-    url.host !== "charaeno.sakasin.net" ||
+    url.host !== "charaeno.com" ||
     url.pathname.substring(1, url.pathname.lastIndexOf("/")) !== "7th"
   ) {
     return { error: "入力されたURLが正しくありません。" };
   }
-  const api = `https://charaeno.sakasin.net/api/v1${url.pathname}/summary`;
-  const sheetUrl = `https://charaeno.sakasin.net${url.pathname}`;
+  const api = `https://charaeno.com/api/v1${url.pathname}/summary`;
+  const sheetUrl = `https://charaeno.com${url.pathname}`;
   return { api, url: sheetUrl };
 };
 
 const createImportCharactersFolderIfNotExists = async () => {
   let importedCharactersFolder = game.folders.find(
-    (entry) =>
-      entry.data.name === "Imported characters" && entry.data.type === "Actor"
+    entry =>
+      entry.name === "Imported characters" && entry.type === "Actor"
   );
-  if (importedCharactersFolder === null) {
+  if (importedCharactersFolder === null || importedCharactersFolder === undefined) {
     // Create the folder
     importedCharactersFolder = await Folder.create({
       name: "Imported characters",
@@ -79,20 +82,21 @@ const createCharacter = async (data, url) => {
   let importedCharactersFolder =
     await createImportCharactersFolderIfNotExists();
 
-  const promises = game.packs.entries
-    .filter((pack) => pack.entity === "Item")
-    .map((pack) => pack.getContent());
+  const promises = game.packs.contents
+    .filter((pack) => pack.documentClass.documentName === "Item")
+    .map((pack) => pack.getDocuments());
   const contents = await Promise.all(promises);
-  const items = game.tables.entities.concat(contents.flat());
+  const items = game.items.contents.concat(contents.flat());
+
   const LIST = {
-    skills: items.filter((i) => i.data.type === "skill"),
-    // weapons: items.filter((i) => i.data.type === "weapon"),
+    skills: items.filter((i) => i.type === "skill"),
+    // weapons: items.filter((i) => i.type === "weapon"),
   };
 
   const actor = await Actor.create({
     name: data.name,
     type: "character",
-    folder: importedCharactersFolder._id,
+    folder: importedCharactersFolder.id,
     data: {},
   });
   await updateActorData(actor, data, url);
@@ -124,7 +128,9 @@ const updateActorData = (actor, data, url) => {
       .some(Boolean)
   ) {
     updateData["data.flags.manualCredit"] = true;
-    updateData[`data.credit`] = data.credit;
+    updateData[`data.monetary.cash`] = data.credit.cash;
+    updateData[`data.monetary.spendingLevel`] = data.credit.spendingLevel;
+    updateData[`data.monetary.assets`] = data.credit.assetsDetails;
   }
 
   const backstories = data.backstory.map((story) => {
@@ -159,24 +165,29 @@ const addSkills = async (actor, data, list) => {
     .map((skill) => {
       let specialization = "";
       let name = skill.name;
+      let base = skill.value;
+      let eras = {};
+      let adjustments = true;
+      let xpgain = true;
+      let push = true;
       const m = skill.name.match(/^(.+)（(.*)）$/);
       if (m) {
         specialization = m[1];
-        name = m[2] === "" ? `${m[1]}（専門分野を選ぶ）` : m[2];
-        if (m[1] === "運転" && m[2] === "自動車") {
-          specialization = "";
-          name = skill.name;
-        } else if (m[1] === "母国語") {
+        name = m[2] === "" ? "専門分野を選ぶ" : m[2];
+        if (m[1] === "母国語") {
           specialization = "言語";
-          name = "母国語";
+          name = m[2] === "" ? "母国語" : m[2];
+          base = "@EDU";
         } else if (m[1] === "ほかの言語") {
           specialization = "言語";
-          name = m[2] === "" ? "ほかの言語（専門分野を選ぶ）" : skill.name;
+          base = 1;
+        } else if (m[1] === "運転" && m[2] === "自動車") {
+          eras = { standard: true, modern: true, modernPulp: true, pulp: true }
         }
       }
+
       const existingSkill = list.skills.find(
-        (i) =>
-          i.data.data.specialization === specialization && i.data.name === name
+        j => j.system.skillName == name && j.system.specialization == specialization
       );
 
       const newSkill = {
@@ -185,41 +196,63 @@ const addSkills = async (actor, data, list) => {
       };
 
       if (existingSkill) {
-        newSkill.name = existingSkill.data.name;
-        newSkill.img = existingSkill.data.img;
-        newSkill.data = existingSkill.data.data;
-        const experience = skill.value - Number(existingSkill.data.data.base);
-        if (experience !== 0) {
-          newSkill.data.adjustments = { experience };
+        newSkill.name = existingSkill.name;
+        newSkill.img = existingSkill.img;
+        newSkill.system = { ...existingSkill.system };
+        newSkill.flags = { ...existingSkill.flags };
+        const experience = skill.value - Number(existingSkill.system.base);
+        if (experience !== 0 && experience !== NaN) {
+          newSkill.system.adjustments = { experience };
         }
-        // newSkill.data.base = skill.value; // TODO: find a way to keep the base
-        newSkill.data.value = skill.value;
+        // newSkill.system.base = skill.value; // TODO: find a way to keep the base
+        newSkill.system.value = skill.value;
       } else {
-        newSkill.name = name;
-        newSkill.data = {
+        if (name == "回避") {
+          base = "1/2*@DEX";
+          push = false;
+        } else if (name == "信用") {
+          base = 0;
+          eras = { standard: true, modern: true, modernPulp: true, pulp: true, downDarkerTrails: true, downDarkerTrailsPulp: true, gasLight: true }
+        } else if (name == "クトゥルフ神話") {
+          base = 0;
+          push = false;
+          adjustments = false;
+          xpgain = false;
+        }
+        newSkill.name = specialization === "" ? name : `${specialization} (${name})`;
+        newSkill.flags = {}
+        newSkill.flags.CoC7 = {}
+        newSkill.flags.CoC7.cocidFlag = eras === {} ? {} : {
+          eras: eras
+        }
+        push = ["近接戦闘", "射撃"].includes(specialization) ? false : true;
+        newSkill.system = {
           value: skill.value,
-          base: skill.value,
+          base: base,
           specialization,
+          skillName: name,
           properties: {
             ...DEFAULT_PROPERTIES,
             special: specialization !== "",
             combat: ["近接戦闘", "射撃"].includes(specialization),
             fighting: specialization === "近接戦闘",
             firearm: specialization === "射撃",
+            noadjustments: !adjustments,
+            noxpgain: !xpgain,
+            push: push
           },
         };
       }
 
       return newSkill;
     });
-
-  return actor.createOwnedItem(newSkills);
+  return actor.createEmbeddedDocuments("Item", newSkills);
 };
 
 const DEFAULT_PROPERTIES = {
   // special: false,
   rarity: false,
-  push: true,
+  //push: true,
   // combat: false,
 };
 
