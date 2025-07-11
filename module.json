@@ -11,9 +11,7 @@
         "type": "system"
       }
   ],
-	"scripts": [
-			"/main.js"
-	],
+	"scripts": ["/main.js"],
   "styles" : [],
   "packs": [
 		{
