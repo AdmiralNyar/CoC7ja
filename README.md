@@ -2,8 +2,8 @@
 
 - **製作者**: Admiral Nyar（[ツイッター](https://twitter.com/kruschtya)）
 - **mod 作成協力者**：Brother Sharp (ディスコード：Brother Sharp#6921)、trpg_yoshi ([@blhsrwznrghfzpr](https://github.com/blhsrwznrghfzpr))
-- **対応 CoC7 バージョン**: 0.10.5
-- **mod バージョン**: 0.3.0
+- **対応 CoC7 バージョン**: 0.10.11(FVTT v11)～ 0.7.19(FVTT v13)
+- **mod バージョン**: 0.3.2
 
 ### インストール方法
 

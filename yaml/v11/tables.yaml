@@ -1,0 +1,2662 @@
+- _id: ftDbaPwHBxcAWuvy
+  name: キャスティング・ロールのプッシュ失敗表（強力）
+  flags: {}
+  text: キャスティング・ロールでプッシュ・ロールに挑戦し、失敗した場合の副作用表（強力な呪文の場合）
+  results:
+    - _id: 7VwU0CPJCKELEeHw
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 1
+        - 1
+      drawn: false
+      text: 大地が震え、壁に亀裂が入って崩れる。
+      name: ""
+    - _id: 3LJALWU0oI8S5oYS
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 2
+        - 2
+      drawn: false
+      text: 叙事詩的な電撃。
+      name: ""
+    - _id: jw0BVks6sdCzNY9w
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 3
+        - 3
+      drawn: false
+      text: 血が空から降る。
+      name: ""
+    - _id: DaNPKPPioDwM563k
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 4
+        - 4
+      drawn: false
+      text: 術者の手がしなび、焼けただれる。
+      name: ""
+    - _id: QChOQ6wjCgwpxf26
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 5
+        - 5
+      drawn: false
+      text: 術者は不自然に年をとる（年齢に+2D10歳、30ページの「年齢」を参照し、能力値に修正を適用すること）。
+      name: ""
+    - _id: cOVaMHAxDPusMnsY
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 6
+        - 6
+      drawn: false
+      text: 強力な、あるいは無数のクトゥルフ神話存在が現れ、術者を手始めに、近くの全員を攻撃する！
+      name: ""
+    - _id: Rh06i2qbDCxpIUwF
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 7
+        - 7
+      drawn: false
+      text: 術者や近くの全員が遠い時代か場所に吸い込まれる。
+      name: ""
+    - _id: NDKGZhqXiIYoCEiT
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 8
+        - 8
+      drawn: false
+      text: クトゥルフ神話の神格が偶然招来される。
+      name: ""
+  formula: 1D8
+  replacement: true
+  displayRoll: true
+  img: icons/svg/d20-grey.svg
+  folder: null
+- _id: TB9oauCCZaNNmSJx
+  name: キャスティング・ロールのプッシュ失敗表（弱い）
+  flags: {}
+  text: キャスティング・ロールでプッシュ・ロールに挑戦し、失敗した場合の副作用表（弱い呪文の場合）
+  results:
+    - _id: WR8yVqThcHnxyw0I
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 1
+        - 1
+      drawn: false
+      text: 視界がぼんやりするか、あるいは一時的な失明。
+      name: ""
+    - _id: 2VwKbcOttrrf7Zdp
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 2
+        - 2
+      drawn: false
+      text: 悲鳴、声、あるいはほかの雑音が肉体から発せられる。
+      name: ""
+    - _id: J5UV3Dz9XsEUqJc1
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 3
+        - 3
+      drawn: false
+      text: 強風やほかの大気の現象。
+      name: ""
+    - _id: 7U2tvubZiWBhimeR
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 4
+        - 4
+      drawn: false
+      text: 術者、ほかのその場に居合わせた者が出血する。あるいは環境（例えば、壁）から出血する。
+      name: ""
+    - _id: paktPC0cWk14LAPT
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 5
+        - 5
+      drawn: false
+      text: 奇妙な幻視と幻覚。
+      name: ""
+    - _id: mJUiYIENtbrofl4k
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 6
+        - 6
+      drawn: false
+      text: その付近の小動物たちが爆発する。
+      name: ""
+    - _id: Pu3bW3J3ZyijMN1u
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 7
+        - 7
+      drawn: false
+      text: 硫黄の悪臭。
+      name: ""
+    - _id: SptlgrmWA70e3muy
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/spell-book.svg
+      weight: 1
+      range:
+        - 8
+        - 8
+      drawn: false
+      text: クトゥルフ神話の怪物が偶然召喚される。
+      name: ""
+  formula: 1D8
+  replacement: true
+  displayRoll: true
+  img: icons/svg/d20-grey.svg
+  folder: null
+- _id: UwyBCjswq2J4XkjI
+  name: マニア表
+  flags: {}
+  text: マニア表
+  results:
+    - _id: NrnZynoZFHP97xTx
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 1
+        - 1
+      drawn: false
+      text: 洗浄マニア：自分の体を洗わずにはいられない。
+      name: ""
+    - _id: NvRLw4MxgfRE8Jua
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 2
+        - 2
+      drawn: false
+      text: 無為マニア：病的な優柔不断。
+      name: ""
+    - _id: 0cMOQiIvhk81AOZM
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 3
+        - 3
+      drawn: false
+      text: 暗闇マニア：暗黒に関する過度の嗜好。
+      name: ""
+    - _id: nJnhnbg067VAK4a3
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 4
+        - 4
+      drawn: false
+      text: 高所マニア：高い場所に登らずにはいられない。
+      name: ""
+    - _id: qxrkIhFmcPvt0XOH
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 5
+        - 5
+      drawn: false
+      text: 善良マニア：病的な親切。
+      name: ""
+    - _id: i4uQOKaw7a1VdFgv
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 6
+        - 6
+      drawn: false
+      text: 広場マニア：開けた場所にいたいという激しい願望。
+      name: ""
+    - _id: mUs6VZUD5HngdUNU
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 7
+        - 7
+      drawn: false
+      text: 先鋭マニア：鋭いもの、とがったものへの執着。
+      name: ""
+    - _id: mke6YwEfe9w2iJMH
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 8
+        - 8
+      drawn: false
+      text: 猫マニア：猫に関する異常な愛好心。
+      name: ""
+    - _id: YBr7abdmVA1Oun1j
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 9
+        - 9
+      drawn: false
+      text: 疼痛性愛：痛みへの執着。
+      name: ""
+    - _id: dVIcjkZcFJPKK7Us
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 10
+        - 10
+      drawn: false
+      text: にんにくマニア：にんにくへの執着。
+      name: ""
+    - _id: 0Rgs1JqdhWZOeguc
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 11
+        - 11
+      drawn: false
+      text: 乗り物マニア：車の中にいることへの執着。
+      name: ""
+    - _id: d3jBqeAOWsK9AdV1
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 12
+        - 12
+      drawn: false
+      text: 病的快活：不合理なほがらかさ。
+      name: ""
+    - _id: syYBETyhdAjAlfmw
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 13
+        - 13
+      drawn: false
+      text: 花マニア：花への執着。
+      name: ""
+    - _id: 8yj2uTBwsWghOOU5
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 14
+        - 14
+      drawn: false
+      text: 計算マニア：数への偏執的な没頭。
+      name: ""
+    - _id: SOUeqUP8YNYPokan
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 15
+        - 15
+      drawn: false
+      text: 浪費マニア：衝動的あるいは無謀な浪費。
+      name: ""
+    - _id: fcEffOv77ZvoUlwK
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 16
+        - 16
+      drawn: false
+      text: 自己マニア：孤独への過度の嗜好。
+      name: ""
+    - _id: mtkOqdBP4ynYn2hg
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 17
+        - 17
+      drawn: false
+      text: バレエマニア：バレエに関する異常な愛好心。
+      name: ""
+    - _id: o4470rp8IH1jAzBb
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 18
+        - 18
+      drawn: false
+      text: 書籍約盗癖：本を盗みたいという強迫的衝動。
+      name: ""
+    - _id: PRQZBi5o1qx6mSbE
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 19
+        - 19
+      drawn: false
+      text: 書物マニア：本または読書、あるいはその両方への執着。
+      name: ""
+    - _id: 2Jv870jgKtcr3JMy
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 20
+        - 20
+      drawn: false
+      text: 歯ぎしりマニア：歯ぎしりしたいという強迫的衝動。
+      name: ""
+    - _id: QfbIz72KkD846154
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 21
+        - 21
+      drawn: false
+      text: 悪霊マニア：誰かの中に邪悪な精霊がいるという病的な信念。
+      name: ""
+    - _id: 7aDFfPfXaFCDyCpu
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 22
+        - 22
+      drawn: false
+      text: 自己愛マニア：自分自身の美への執着。
+      name: ""
+    - _id: 13d6w6FDhmtNAtpX
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 23
+        - 23
+      drawn: false
+      text: 地図マニア：いたる所の地図を見る制御不可能な強迫的衝動。
+      name: ""
+    - _id: 0qd8neLIcXrC41Lw
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 24
+        - 24
+      drawn: false
+      text: 飛び降りマニア：高い場所から跳躍することへの執着。
+      name: ""
+    - _id: sotvxSdL1uqp3xSS
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 25
+        - 25
+      drawn: false
+      text: 寒冷マニア：冷たさ、または冷たいもの、あるいはその両方への異常な欲望。
+      name: ""
+    - _id: Zpo7t7Vgfa9GS0gR
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 26
+        - 26
+      drawn: false
+      text: 舞踏マニア：踊ることへの愛好もしくは制御不可能な熱狂。
+      name: ""
+    - _id: pwikXgdzPlXoybet
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 27
+        - 27
+      drawn: false
+      text: 睡眠マニア：寝ることへの過度の願望。
+      name: ""
+    - _id: pcX2NVc6cqHpKpiH
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 28
+        - 28
+      drawn: false
+      text: 墓地マニア：墓地への執着。
+      name: ""
+    - _id: VY13Y3tqBJMF8Is9
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 29
+        - 29
+      drawn: false
+      text: 色彩マニア：特定の色への執着。
+      name: ""
+    - _id: EYwLo2veRr9rUwne
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 30
+        - 30
+      drawn: false
+      text: ピエロマニア：ピエロへの執着。
+      name: ""
+    - _id: 07XmS9nEKhyk6RDK
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 31
+        - 31
+      drawn: false
+      text: 遭遇マニア：恐ろしい状況を経験したいという強迫的衝動。
+      name: ""
+    - _id: OZsZs1PuIcqqHdjA
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 32
+        - 32
+      drawn: false
+      text: 殺害マニア：殺害への執着。
+      name: ""
+    - _id: yIfeuesQq92XKT7f
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 33
+        - 33
+      drawn: false
+      text: 悪魔マニア：誰かが悪魔にとりつかれているという病的な信念。
+      name: ""
+    - _id: fACDeiBIQiskIAg3
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 34
+        - 34
+      drawn: false
+      text: 皮膚マニア：人の皮膚を引っぱりたいという強迫的衝動。
+      name: ""
+    - _id: kXqL8lkZPwZ3OlCz
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 35
+        - 35
+      drawn: false
+      text: 正義マニア：正義が完遂されるのを見たいという執着。
+      name: ""
+    - _id: h22ndKFas2gEOuR9
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 36
+        - 36
+      drawn: false
+      text: アルコールマニア：アルコールに関する異常な欲求。
+      name: ""
+    - _id: 0oq7J7ZUPsirT5rD
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 37
+        - 37
+      drawn: false
+      text: 毛皮マニア：毛皮を所有することへの執着。
+      name: ""
+    - _id: G5kW16YS51L9g26e
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 38
+        - 38
+      drawn: false
+      text: 贈り物マニア：贈り物を与えることへの執着。
+      name: ""
+    - _id: wxplpHEhQvcvLhHe
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 39
+        - 39
+      drawn: false
+      text: 逃走マニア：逃走することへの迫的衝動。
+      name: ""
+    - _id: kH8rfIYu2WbDpP7U
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 40
+        - 40
+      drawn: false
+      text: 外出マニア：外を歩き回ることの強迫的衝動。
+      name: ""
+    - _id: nPvbhZtETUSiNIH1
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 41
+        - 41
+      drawn: false
+      text: 自己中心マニア：不合理な自心の態度か自己崇拝。
+      name: ""
+    - _id: iQ9iGeT0TDknYyXD
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 42
+        - 42
+      drawn: false
+      text: 公職マニア：公的な職業に就きいという強欲な衝動。
+      name: ""
+    - _id: ywvYgPZEWCbuLFfj
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 43
+        - 43
+      drawn: false
+      text: 戦慄マニア：誰かが罪を犯したという病的な信念
+      name: ""
+    - _id: AEc5f3EZE47vG1x9
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 44
+        - 44
+      drawn: false
+      text: 知識マニア：知識を得ることへ執着。
+      name: ""
+    - _id: sPEkkyxZW2Zk2v0M
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 45
+        - 45
+      drawn: false
+      text: 静寂マニア：静寂であることへ強迫的衝動。
+      name: ""
+    - _id: wOv2N6GFVNDIzx7k
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 46
+        - 46
+      drawn: false
+      text: エーテルマニア：エーテルへの切望
+      name: ""
+    - _id: jCojHEaaFoaqTUBb
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 47
+        - 47
+      drawn: false
+      text: 求婚マニア：奇妙な求婚をすることへの執着。
+      name: ""
+    - _id: 84wtvGoorChXtaTm
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 48
+        - 48
+      drawn: false
+      text: 笑いマニア：制御不可能な笑うことへの強迫的衝動。
+      name: ""
+    - _id: EYn4orlcGajZAacv
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 49
+        - 49
+      drawn: false
+      text: 魔術マニア：魔女と魔術への執着。
+      name: ""
+    - _id: IjzfJ9jlHsf9ds38
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 50
+        - 50
+      drawn: false
+      text: 筆記マニア：すべてを書き留めることへの執着。
+      name: ""
+    - _id: 2loFBV5nlkJFc0ck
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 51
+        - 51
+      drawn: false
+      text: 裸体マニア：裸になりたいという強迫的衝動。
+      name: ""
+    - _id: HXcU2c8uP6Rop59o
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 52
+        - 52
+      drawn: false
+      text: 幻想マニア：快い幻想(現実とは関係なく)にとらわれやすい異常な傾向。
+      name: ""
+    - _id: N3qKK8wWCQEcxVLR
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 53
+        - 53
+      drawn: false
+      text: 蟲マニア：蟲に関する過度の嗜好。
+      name: ""
+    - _id: AOJy6DJY6nExiefl
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 54
+        - 54
+      drawn: false
+      text: 火器マニア：火器への執着。
+      name: ""
+    - _id: woLkqUElqeOuko0Z
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 55
+        - 55
+      drawn: false
+      text: 水マニア：水に関する不合理な渇望。
+      name: ""
+    - _id: xkTEb2HFmlhh5pxg
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 56
+        - 56
+      drawn: false
+      text: 魚マニア：魚への執着。
+      name: ""
+    - _id: 5FxbfY0fLQGynM4G
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 57
+        - 57
+      drawn: false
+      text: アイコンマニア：像や肖像への執着。
+      name: ""
+    - _id: RiePoDpIwOYL4zeS
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 58
+        - 58
+      drawn: false
+      text: アイドルマニア：偶像への執着または献身。
+      name: ""
+    - _id: pqWUlJ3dzibhR3W1
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 59
+        - 59
+      drawn: false
+      text: 情報マニア：事実を集めることへの過度の献身。
+      name: ""
+    - _id: Fys9X3D7YdoKv5HQ
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 60
+        - 60
+      drawn: false
+      text: 絶叫マニア：叫ぶことへの説明できない強迫的衝動。
+      name: ""
+    - _id: wAHHZtF0u4CrUDGP
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 61
+        - 61
+      drawn: false
+      text: 窃盗マニア：盗むことへの説明できない強迫的衝動。
+      name: ""
+    - _id: HnX1gxaiH97qA8UZ
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 62
+        - 62
+      drawn: false
+      text: 騒音マニア：大きな、あるいは甲高い騒音を出すことへの制御不可能な強迫的衝動。
+      name: ""
+    - _id: HjLMNU87ygwFjFwW
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 63
+        - 63
+      drawn: false
+      text: ひもマニア：ひもへの執着。
+      name: ""
+    - _id: cXCqeDo6jSm1Ls4T
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 64
+        - 64
+      drawn: false
+      text: 宝くじマニア：宝くじに参加したいという極度の願望。
+      name: ""
+    - _id: iXYRkGPupsumbnOO
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 65
+        - 65
+      drawn: false
+      text: うつマニア：異常に深くふさぎ込む傾向。
+      name: ""
+    - _id: sudaMq41VnK4Uf3B
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 66
+        - 66
+      drawn: false
+      text: 巨石マニア：環状列石/立石があると奇妙な考えにとらわれる異常な傾向。
+      name: ""
+    - _id: mLQ616dFmkqxrAmL
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 67
+        - 67
+      drawn: false
+      text: 音楽マニア：音楽もしくは特定の旋律への執着。
+      name: ""
+    - _id: GHUnFAyfqUdSmjLP
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 68
+        - 68
+      drawn: false
+      text: 作詩マニア：詩を書くことへの強欲な願望。
+      name: ""
+    - _id: TcW6d8EOEATCSH1y
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 69
+        - 69
+      drawn: false
+      text: 憎悪マニア：何らかの対象あるいはグループの何もかもを憎む執着。
+      name: ""
+    - _id: DJHtjPDKA5kXNIug
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 70
+        - 70
+      drawn: false
+      text: 偏執マニア：ただ1つの思想やアイデアへの異常な執着。
+      name: ""
+    - _id: OK3HrnRaSUXjymIp
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 71
+        - 71
+      drawn: false
+      text: 虚言マニア：異常なほどにうそをついたり、誇張して話す。
+      name: ""
+    - _id: HPCU8B6rHo912KZp
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 72
+        - 72
+      drawn: false
+      text: 疾病マニア：想像上の病気に苦められる幻想。
+      name: ""
+    - _id: yIA8gBKy7wHCzbe2
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 73
+        - 73
+      drawn: false
+      text: 記録マニア：あらゆるものを記録に残そうという強迫的衝動。
+      name: ""
+    - _id: nl74FNeJXnXzedyh
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 74
+        - 74
+      drawn: false
+      text: 名前マニア：人々、場所、ものなどの名前への執着
+      name: ""
+    - _id: 41L42tynmUetg9F6
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 75
+        - 75
+      drawn: false
+      text: 単語マニア：ある単語を繰り返したいという押さえ切れない欲求。
+      name: ""
+    - _id: QMQv3NS1fSTBWLEn
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 76
+        - 76
+      drawn: false
+      text: 爪損傷マニア：指の爪をむしったりはがそうとする強迫的衝動。
+      name: ""
+    - _id: avfh514ILr1N1ove
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 77
+        - 77
+      drawn: false
+      text: 美食マニア：1種類の食物への異常な愛。
+      name: ""
+    - _id: ySrYRLRtVpJvflqB
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 78
+        - 78
+      drawn: false
+      text: 不平マニア：不平を言うことへの異常な喜び。
+      name: ""
+    - _id: fpxgN2e4JLQR5fOY
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 79
+        - 79
+      drawn: false
+      text: 仮面マニア：仮面や覆面を着けたいという強迫的衝動。
+      name: ""
+    - _id: sJYpdfPWxEawKInJ
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 80
+        - 80
+      drawn: false
+      text: 幽霊マニア：幽霊への執着。
+      name: ""
+    - _id: vWiPVg39CgHUlejk
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 81
+        - 81
+      drawn: false
+      text: 殺人マニア：殺人への病的な傾向。
+      name: ""
+    - _id: oS8UW1p32KgjyqkW
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 82
+        - 82
+      drawn: false
+      text: 光線マニア：光への病的な願望。
+      name: ""
+    - _id: 1D3WnS7qswlKvA3c
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 83
+        - 83
+      drawn: false
+      text: 放浪マニア：社会の規範に背きたいという異常な欲望。
+      name: ""
+    - _id: AHH17nOFdtrARxL9
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 84
+        - 84
+      drawn: false
+      text: 長者マニア：富への強迫的な欲望。
+      name: ""
+    - _id: dI6l8xLzhGhxKi6P
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 85
+        - 85
+      drawn: false
+      text: 病的虚言マニア：うそをつきたくてたまらない強迫的衝動。
+      name: ""
+    - _id: OwEg3S1O2O8qrpZo
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 86
+        - 86
+      drawn: false
+      text: 放火マニア：火をつけることへの強迫的衝動。
+      name: ""
+    - _id: lDOGUbFEHqRlgaBg
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 87
+        - 87
+      drawn: false
+      text: 質問マニア：質問したいという激しい強迫的衝動。
+      name: ""
+    - _id: 4DECAEYhyB1eglB7
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 88
+        - 88
+      drawn: false
+      text: 鼻マニア：鼻をいじりたいという強迫的衝動。
+      name: ""
+    - _id: nyiOcVMLxuBZktql
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 89
+        - 89
+      drawn: false
+      text: 落書きマニア：いらずら書きや落書きへの執着。
+      name: ""
+    - _id: zB8rNpqaOaLHdVQg
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 90
+        - 90
+      drawn: false
+      text: 列車マニア：列車と鉄道旅行への強い魅了。
+      name: ""
+    - _id: HzTzWIqzekcTx6Xs
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 91
+        - 91
+      drawn: false
+      text: 知性マニア：誰かが信じられないほど知的であるという幻想。
+      name: ""
+    - _id: QejTregHQDTo3tkV
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 92
+        - 92
+      drawn: false
+      text: テクノマニア：新技術への執着。
+      name: ""
+    - _id: nVhdnJEBqoJR4DdV
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 93
+        - 93
+      drawn: false
+      text: タナトスマニア：誰かが死を招く魔術によって呪われているという信念。
+      name: ""
+    - _id: JhQ2VLBZRj9M9k6S
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 94
+        - 94
+      drawn: false
+      text: 宗教マニア：その人が神であるという信仰。
+      name: ""
+    - _id: KrgMSnSOhYVkMDh1
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 95
+        - 95
+      drawn: false
+      text: かき傷マニア：かき傷をつけることへの強迫的衝動。
+      name: ""
+    - _id: 9pyy7jBNhkf0uRa6
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 96
+        - 96
+      drawn: false
+      text: 手術マニア：外科手術を行なうことへの不合理な嗜好。
+      name: ""
+    - _id: PhBTLBCunpImFflD
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 97
+        - 97
+      drawn: false
+      text: 抜毛マニア：自分の髪を引き抜くことへの切望。
+      name: ""
+    - _id: QEy7qQtPESo2ggWP
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 98
+        - 98
+      drawn: false
+      text: 失明マニア：病的な視覚障害。
+      name: ""
+    - _id: tiApZYwFWnpaTfXg
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 99
+        - 99
+      drawn: false
+      text: 異国マニア：外国のものへの執着。
+      name: ""
+    - _id: sGrve09JF1dPONQ5
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 100
+        - 100
+      drawn: false
+      text: 動物マニア：動物への正気でない溺愛。
+      name: ""
+  formula: 1d100
+  replacement: true
+  displayRoll: true
+  img: icons/svg/d20-grey.svg
+  folder: null
+- _id: 8zh7MdLJoRKsrNLf
+  name: 恐怖症表
+  flags: {}
+  text: 恐怖症表
+  results:
+    - _id: NrnZynoZFHP97xTx
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 1
+        - 1
+      drawn: false
+      text: 入浴恐怖症：体、手、顔を洗うのが怖い。
+      name: ""
+    - _id: NvRLw4MxgfRE8Jua
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 2
+        - 2
+      drawn: false
+      text: 高所恐怖症：高いところが怖い。
+      name: ""
+    - _id: 0cMOQiIvhk81AOZM
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 3
+        - 3
+      drawn: false
+      text: 飛行恐怖症：飛ぶのが怖い。
+      name: ""
+    - _id: nJnhnbg067VAK4a3
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 4
+        - 4
+      drawn: false
+      text: 広場恐怖症：広場、公共の(混雑した)場所が怖い。
+      name: ""
+    - _id: qxrkIhFmcPvt0XOH
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 5
+        - 5
+      drawn: false
+      text: 鶏肉恐怖症：鶏肉が怖い。
+      name: ""
+    - _id: i4uQOKaw7a1VdFgv
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 6
+        - 6
+      drawn: false
+      text: ニンニク恐怖症：ニンニクが怖い。
+      name: ""
+    - _id: mUs6VZUD5HngdUNU
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 7
+        - 7
+      drawn: false
+      text: 乗車恐怖症：車両の中にいたり車両に乗るのが怖い。
+      name: ""
+    - _id: mke6YwEfe9w2iJMH
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 8
+        - 8
+      drawn: false
+      text: 風恐怖症：風が怖い。
+      name: ""
+    - _id: YBr7abdmVA1Oun1j
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 9
+        - 9
+      drawn: false
+      text: 男性恐怖症：男性が怖い。
+      name: ""
+    - _id: dVIcjkZcFJPKK7Us
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 10
+        - 10
+      drawn: false
+      text: イングランド恐怖症：イングランド、もしくはイングランド文化などが怖い。
+      name: ""
+    - _id: 0Rgs1JqdhWZOeguc
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 11
+        - 11
+      drawn: false
+      text: 花恐怖症：花が怖い。
+      name: ""
+    - _id: d3jBqeAOWsK9AdV1
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 12
+        - 12
+      drawn: false
+      text: 切断恐怖症：手足や指などが切断された人が怖い。
+      name: ""
+    - _id: syYBETyhdAjAlfmw
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 13
+        - 13
+      drawn: false
+      text: クモ恐怖症：クモが怖い。
+      name: ""
+    - _id: 8yj2uTBwsWghOOU5
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 14
+        - 14
+      drawn: false
+      text: 稲妻恐怖症：稲妻が怖い。
+      name: ""
+    - _id: SOUeqUP8YNYPokan
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 15
+        - 15
+      drawn: false
+      text: 廃墟恐怖症：廃墟が怖い。
+      name: ""
+    - _id: fcEffOv77ZvoUlwK
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 16
+        - 16
+      drawn: false
+      text: 笛恐怖症：笛(フルート)が怖い。
+      name: ""
+    - _id: mtkOqdBP4ynYn2hg
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 17
+        - 17
+      drawn: false
+      text: 細菌恐怖症：細菌、バクテリアが怖い。
+      name: ""
+    - _id: o4470rp8IH1jAzBb
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 18
+        - 18
+      drawn: false
+      text: 銃弾恐怖症：投擲物や銃弾が怖い。
+      name: ""
+    - _id: PRQZBi5o1qx6mSbE
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 19
+        - 19
+      drawn: false
+      text: 落下恐怖症：落下が怖い。
+      name: ""
+    - _id: 2Jv870jgKtcr3JMy
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 20
+        - 20
+      drawn: false
+      text: 書物恐怖症：本が怖い。
+      name: ""
+    - _id: QfbIz72KkD846154
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 21
+        - 21
+      drawn: false
+      text: 植物恐怖症：植物が怖い。
+      name: ""
+    - _id: 7aDFfPfXaFCDyCpu
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 22
+        - 22
+      drawn: false
+      text: 美女恐怖症：美しい女性が怖い。
+      name: ""
+    - _id: 13d6w6FDhmtNAtpX
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 23
+        - 23
+      drawn: false
+      text: 低温恐怖症：冷たいものが怖い。
+      name: ""
+    - _id: 0qd8neLIcXrC41Lw
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 24
+        - 24
+      drawn: false
+      text: 時計恐怖症：時計が怖い。
+      name: ""
+    - _id: sotvxSdL1uqp3xSS
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 25
+        - 25
+      drawn: false
+      text: 閉所恐怖症：壁に囲まれた場所が怖い。
+      name: ""
+    - _id: Zpo7t7Vgfa9GS0gR
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 26
+        - 26
+      drawn: false
+      text: 道化師恐怖症：道化師が怖い。
+      name: ""
+    - _id: pwikXgdzPlXoybet
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 27
+        - 27
+      drawn: false
+      text: 犬恐怖症：犬が怖い。
+      name: ""
+    - _id: pcX2NVc6cqHpKpiH
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 28
+        - 28
+      drawn: false
+      text: 悪魔恐怖症：悪魔が怖い。
+      name: ""
+    - _id: VY13Y3tqBJMF8Is9
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 29
+        - 29
+      drawn: false
+      text: 群集恐怖症：人混みが怖い。
+      name: ""
+    - _id: EYwLo2veRr9rUwne
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 30
+        - 30
+      drawn: false
+      text: 歯科医恐怖症：歯科医が怖い。
+      name: ""
+    - _id: 07XmS9nEKhyk6RDK
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 31
+        - 31
+      drawn: false
+      text: 処分恐怖症：物を捨てるのが怖い(ためこみ症)
+      name: ""
+    - _id: OZsZs1PuIcqqHdjA
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 32
+        - 32
+      drawn: false
+      text: 毛皮恐怖症：毛皮が怖い。
+      name: ""
+    - _id: yIfeuesQq92XKT7f
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 33
+        - 33
+      drawn: false
+      text: 構断恐怖症：道路を横断するのが怖い。
+      name: ""
+    - _id: fACDeiBIQiskIAg3
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 34
+        - 34
+      drawn: false
+      text: 教会恐怖症：教会が怖い。
+      name: ""
+    - _id: kXqL8lkZPwZ3OlCz
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 35
+        - 35
+      drawn: false
+      text: 鏡恐怖症：鏡が怖い。
+      name: ""
+    - _id: h22ndKFas2gEOuR9
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 36
+        - 36
+      drawn: false
+      text: ピン恐怖症：針やピンが怖い。
+      name: ""
+    - _id: 0oq7J7ZUPsirT5rD
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 37
+        - 37
+      drawn: false
+      text: 昆虫恐怖症：昆虫が怖い。
+      name: ""
+    - _id: G5kW16YS51L9g26e
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 38
+        - 38
+      drawn: false
+      text: 猫恐怖症：猫が怖い。
+      name: ""
+    - _id: wxplpHEhQvcvLhHe
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 39
+        - 39
+      drawn: false
+      text: 橋恐怖症：橋を渡るのが怖い。
+      name: ""
+    - _id: kH8rfIYu2WbDpP7U
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 40
+        - 40
+      drawn: false
+      text: 老人恐怖症：老人や年をとることが怖い。
+      name: ""
+    - _id: nPvbhZtETUSiNIH1
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 41
+        - 41
+      drawn: false
+      text: 女性恐怖症：女性が怖い。
+      name: ""
+    - _id: iQ9iGeT0TDknYyXD
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 42
+        - 42
+      drawn: false
+      text: 血液恐怖症：血が怖い。
+      name: ""
+    - _id: ywvYgPZEWCbuLFfj
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 43
+        - 43
+      drawn: false
+      text: 過失恐怖症：失敗が怖い。
+      name: ""
+    - _id: AEc5f3EZE47vG1x9
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 44
+        - 44
+      drawn: false
+      text: 接触恐怖症：触ることが怖い。
+      name: ""
+    - _id: sPEkkyxZW2Zk2v0M
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 45
+        - 45
+      drawn: false
+      text: 爬虫類恐怖症：爬虫類が怖い。
+      name: ""
+    - _id: wOv2N6GFVNDIzx7k
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 46
+        - 46
+      drawn: false
+      text: 霧恐怖症：霧が怖い。
+      name: ""
+    - _id: jCojHEaaFoaqTUBb
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 47
+        - 47
+      drawn: false
+      text: 銃器恐怖症：銃器が怖い。
+      name: ""
+    - _id: 84wtvGoorChXtaTm
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 48
+        - 48
+      drawn: false
+      text: 水恐怖症：水が怖い。
+      name: ""
+    - _id: EYn4orlcGajZAacv
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 49
+        - 49
+      drawn: false
+      text: 睡眠恐怖症：眠ったり、催眠状態に陥るのが怖い。
+      name: ""
+    - _id: IjzfJ9jlHsf9ds38
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 50
+        - 50
+      drawn: false
+      text: 医師恐怖症：医師が怖い。
+      name: ""
+    - _id: 2loFBV5nlkJFc0ck
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 51
+        - 51
+      drawn: false
+      text: 魚恐怖症：魚が怖い。
+      name: ""
+    - _id: HXcU2c8uP6Rop59o
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 52
+        - 52
+      drawn: false
+      text: ゴキブリ恐怖症：ゴキブリが怖い。
+      name: ""
+    - _id: N3qKK8wWCQEcxVLR
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 53
+        - 53
+      drawn: false
+      text: 雷鳴恐怖症：雷鳴が怖い。
+      name: ""
+    - _id: AOJy6DJY6nExiefl
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 54
+        - 54
+      drawn: false
+      text: 野菜恐怖症：野菜が怖い。
+      name: ""
+    - _id: woLkqUElqeOuko0Z
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 55
+        - 55
+      drawn: false
+      text: 大騒音恐怖症：大きな騒音が怖い。
+      name: ""
+    - _id: xkTEb2HFmlhh5pxg
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 56
+        - 56
+      drawn: false
+      text: 湖恐怖症：湖が怖い。
+      name: ""
+    - _id: 5FxbfY0fLQGynM4G
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 57
+        - 57
+      drawn: false
+      text: 機械恐怖症：機械や装置が怖い。
+      name: ""
+    - _id: RiePoDpIwOYL4zeS
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 58
+        - 58
+      drawn: false
+      text: 巨大物恐怖症：巨大なものが怖い。
+      name: ""
+    - _id: pqWUlJ3dzibhR3W1
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 59
+        - 59
+      drawn: false
+      text: 拘束恐怖症：縛られたり結びつけられたりするのが怖い。
+      name: ""
+    - _id: Fys9X3D7YdoKv5HQ
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 60
+        - 60
+      drawn: false
+      text: 隕石恐怖症：流星や隕石が怖い。
+      name: ""
+    - _id: wAHHZtF0u4CrUDGP
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 61
+        - 61
+      drawn: false
+      text: 孤独恐怖症：独りでいることが怖い。
+      name: ""
+    - _id: HnX1gxaiH97qA8UZ
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 62
+        - 62
+      drawn: false
+      text: 汚染恐怖症：汚れたり汚染されたりするのが怖い。
+      name: ""
+    - _id: HjLMNU87ygwFjFwW
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 63
+        - 63
+      drawn: false
+      text: 粘液恐怖症：粘液、粘体が怖い。
+      name: ""
+    - _id: cXCqeDo6jSm1Ls4T
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 64
+        - 64
+      drawn: false
+      text: 死体恐怖症：死体が怖い。
+      name: ""
+    - _id: iXYRkGPupsumbnOO
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 65
+        - 65
+      drawn: false
+      text: 8恐怖症：8の数字が怖い。
+      name: ""
+    - _id: sudaMq41VnK4Uf3B
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 66
+        - 66
+      drawn: false
+      text: 歯恐怖症：歯が怖い。
+      name: ""
+    - _id: mLQ616dFmkqxrAmL
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 67
+        - 67
+      drawn: false
+      text: 夢恐怖症：夢が怖い。
+      name: ""
+    - _id: GHUnFAyfqUdSmjLP
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 68
+        - 68
+      drawn: false
+      text: 名称恐怖症：特定の言葉（1つまたは複数）を聞くのが怖い。
+      name: ""
+    - _id: TcW6d8EOEATCSH1y
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 69
+        - 69
+      drawn: false
+      text: 蛇恐怖症：蛇が怖い。
+      name: ""
+    - _id: DJHtjPDKA5kXNIug
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 70
+        - 70
+      drawn: false
+      text: 鳥恐怖症：鳥が怖い。
+      name: ""
+    - _id: OK3HrnRaSUXjymIp
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 71
+        - 71
+      drawn: false
+      text: 寄生生物恐怖症：寄生生物が怖い。
+      name: ""
+    - _id: HPCU8B6rHo912KZp
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 72
+        - 72
+      drawn: false
+      text: 人形恐怖症：人形が怖い。
+      name: ""
+    - _id: yIA8gBKy7wHCzbe2
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 73
+        - 73
+      drawn: false
+      text: 恐食症：のみ込むこと食べること、もしくは食べられることが怖い。
+      name: ""
+    - _id: nl74FNeJXnXzedyh
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 74
+        - 74
+      drawn: false
+      text: 薬物恐怖症：薬物が怖い。
+      name: ""
+    - _id: 41L42tynmUetg9F6
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 75
+        - 75
+      drawn: false
+      text: 幽霊恐怖症：幽霊が怖い。
+      name: ""
+    - _id: QMQv3NS1fSTBWLEn
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 76
+        - 76
+      drawn: false
+      text: 羞明：日光が怖い。
+      name: ""
+    - _id: avfh514ILr1N1ove
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 77
+        - 77
+      drawn: false
+      text: ひげ恐怖症：ひげが怖い
+      name: ""
+    - _id: ySrYRLRtVpJvflqB
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 78
+        - 78
+      drawn: false
+      text: 河川恐怖症：川が怖い
+      name: ""
+    - _id: fpxgN2e4JLQR5fOY
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 79
+        - 79
+      drawn: false
+      text: アルコール恐怖症：アルコールやアルコール飲料が怖い。
+      name: ""
+    - _id: sJYpdfPWxEawKInJ
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 80
+        - 80
+      drawn: false
+      text: 火恐怖症：火が怖い。
+      name: ""
+    - _id: vWiPVg39CgHUlejk
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 81
+        - 81
+      drawn: false
+      text: 魔術恐怖症：魔術が怖い。
+      name: ""
+    - _id: oS8UW1p32KgjyqkW
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 82
+        - 82
+      drawn: false
+      text: 暗黒恐怖症：暗闇や夜が怖い。
+      name: ""
+    - _id: 1D3WnS7qswlKvA3c
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 83
+        - 83
+      drawn: false
+      text: 月恐怖症：月が怖い。
+      name: ""
+    - _id: AHH17nOFdtrARxL9
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 84
+        - 84
+      drawn: false
+      text: 鉄道恐怖症：列車の旅が怖い。
+      name: ""
+    - _id: dI6l8xLzhGhxKi6P
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 85
+        - 85
+      drawn: false
+      text: 星恐怖症：星が怖い。
+      name: ""
+    - _id: OwEg3S1O2O8qrpZo
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 86
+        - 86
+      drawn: false
+      text: 狭所恐怖症：狭いものや場所が怖い。
+      name: ""
+    - _id: lDOGUbFEHqRlgaBg
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 87
+        - 87
+      drawn: false
+      text: 対称恐怖症：左右対称が怖い。
+      name: ""
+    - _id: 4DECAEYhyB1eglB7
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 88
+        - 88
+      drawn: false
+      text: 生き埋め恐怖症：生き埋めになることや墓地が怖い。
+      name: ""
+    - _id: nyiOcVMLxuBZktql
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 89
+        - 89
+      drawn: false
+      text: 雄牛恐怖症：雄牛が怖い。
+      name: ""
+    - _id: zB8rNpqaOaLHdVQg
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 90
+        - 90
+      drawn: false
+      text: 電話恐怖症：電話が怖い。
+      name: ""
+    - _id: HzTzWIqzekcTx6Xs
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 91
+        - 91
+      drawn: false
+      text: 奇形恐怖症：怪物が怖い。
+      name: ""
+    - _id: QejTregHQDTo3tkV
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 92
+        - 92
+      drawn: false
+      text: 海洋恐怖症：海が怖い。
+      name: ""
+    - _id: nVhdnJEBqoJR4DdV
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 93
+        - 93
+      drawn: false
+      text: 手術恐怖症：外科手術が怖い。
+      name: ""
+    - _id: JhQ2VLBZRj9M9k6S
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 94
+        - 94
+      drawn: false
+      text: 13恐怖症：13の数字が怖い。
+      name: ""
+    - _id: KrgMSnSOhYVkMDh1
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 95
+        - 95
+      drawn: false
+      text: 衣類恐怖症：衣服が怖い。
+      name: ""
+    - _id: 9pyy7jBNhkf0uRa6
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 96
+        - 96
+      drawn: false
+      text: 魔女恐怖症：魔女と魔術が怖い。
+      name: ""
+    - _id: PhBTLBCunpImFflD
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 97
+        - 97
+      drawn: false
+      text: 黄色恐怖症：黄色や「黄色」という言葉が怖い。
+      name: ""
+    - _id: QEy7qQtPESo2ggWP
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 98
+        - 98
+      drawn: false
+      text: 外国語恐怖症：外国語が怖い。
+      name: ""
+    - _id: tiApZYwFWnpaTfXg
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 99
+        - 99
+      drawn: false
+      text: 外国人恐怖症：外国人が怖い。
+      name: ""
+    - _id: sGrve09JF1dPONQ5
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/elder_sign.svg
+      weight: 1
+      range:
+        - 100
+        - 100
+      drawn: false
+      text: 動物恐怖症：動物が怖い。
+      name: ""
+  formula: 1d100
+  replacement: true
+  displayRoll: true
+  img: icons/svg/d20-grey.svg
+  folder: null
+- _id: FymYpxgXj9JfpOqI
+  name: 狂気の発作（サマリー）
+  flags: {}
+  text:
+    "ほかの探索者がその場にいない場合に起きた狂気の発作の表（全員が同時に狂気の発作となった場合を含む）
+
+    ※狂気の発作の時間を別にロールすること"
+  results:
+    - _id: PlO7GxxA9zZMvCXK
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 1
+        - 1
+      drawn: false
+      text: 健忘症：探索者が意識を取り戻すと、見知らぬ場所におり、自分が誰かもわからない。記憶は時間をかけてゆっくりと戻るだろう。
+      name: ""
+    - _id: 6qhZeOPQqwPUuTAJ
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 2
+        - 2
+      drawn: false
+      text: 盗難：探索者は1D10時間後に意識を取り戻すが、盗難の被害を受けている。傷つけられてはいない。探索者が秘蔵の品を身に着けていた場合（「探索者のバックストーリー」参照）、〈幸運〉ロールを行い、それが盗まれていないか判定する。値打ちのあるものはすべて自動的に失われる。
+      name: ""
+    - _id: E8M3kz6SJMaDX8XH
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 3
+        - 3
+      drawn: false
+      text: 暴行：探索者は1D10時間後に意識を取り戻し、自分が暴行を受け、傷ついていることに気づく。耐久力は狂気に陥る前の半分に減少している。ただし重症は生じていない。盗まれたものはない。どのようにダメージが加えられたかは、キーパーに委ねられる。
+      name: ""
+    - _id: vV1haNktw3I4oBvj
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 4
+        - 4
+      drawn: false
+      text: 暴力：探索者は暴力と破壊の噴流を爆発させる。探索者が意識を取り戻した時、その行動を認識し記憶していることもあればそうでないこともある。探索者が暴力を振るった物、もしくは人、そして相手を殺してしまったのか、あるいは単に傷つけただけなのかはキーパーに委ねられる。
+      name: ""
+    - _id: s6k1XSjWyC528NJW
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 5
+        - 5
+      drawn: false
+      text: イデオロギー／信念：探索者のバックストーリーのイデオロギーと信念を参照する。探索者はこれらの1つの権化となり、急進的かつ狂気じみて、感情もあらわに主張するようになる。例えば、宗教に関係する者は、その後地下鉄で声高に福音を説教しているところを目撃されるかもしれない。
+      name: ""
+    - _id: TnA85R8zbKAkUHN6
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 6
+        - 6
+      drawn: false
+      text: 重要な人々：探索者のバックストーリーの重要な人々を参照し、なぜその人物との関係が重要かを考える。時間がたってから（1D10時間以上）、探索者はその人物に近づくための最善の行動、そしてその人物との関係にとって最善の行動をとる。
+      name: ""
+    - _id: ZZkQwKn7SBeuarTe
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 7
+        - 7
+      drawn: false
+      text: 収容：探索者は精神療養施設あるいは警察の留置所で意識を取り戻す。探索者は徐々にそこにいたった出来事を思い出すかもしれない。
+      name: ""
+    - _id: AIj00xoTIOoE5ANB
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 8
+        - 8
+      drawn: false
+      text: パニック：探索者は非常に遠い場所で意識を取り戻す。荒野で道に迷っているか、列車に乗っているか、長距離バスに乗っているかもしれない。
+      name: ""
+    - _id: jOHB9W3GOXjjyD50
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 9
+        - 9
+      drawn: false
+      text: 恐怖症：探索者は新たな恐怖症を獲得する。恐怖症表をロールするか、キーパーがどれか1つ選ぶ。探索者は1D10時間後に意識を取り戻し、この新たな恐怖症の対象を避けるためにあらゆる努力をする。
+      name: ""
+    - _id: FrvGAMPx9rvw0g9a
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 10
+        - 10
+      drawn: false
+      text: マニア：探索者は新たなマニアを獲得する。マニア表をロールするか、キーパーがどれか1つ選ぶ。この狂気の発作の間、探索者はこの新たなマニアに完全に溺れているだろう。これがほかの人々に気づかれるかどうかは、キーパーとプレイヤーに委ねられる。
+      name: ""
+  formula: 1D10
+  replacement: true
+  displayRoll: true
+  img: icons/svg/d20-grey.svg
+  folder: null
+- _id: LW3PnqWNxPipwT2f
+  name: 狂気の発作（リアルタイム）
+  flags: {}
+  text:
+    "ほかの探索者がその場にいる場合に起きた狂気の発作の表（全員が同時に狂気の発作となった場合を除く）
+
+    ※狂気の発作の時間と潜在狂気の時間を別にロールすること"
+  results:
+    - _id: aukGJtLcPEIiyNvj
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 1
+        - 1
+      drawn: false
+      text: 健忘症：探索者は、最後に安全な場所にいた時からあとに起こった出来事の記憶を持たない。例えば、朝食を食べていた次の瞬間には怪物と向かい合っている。これは1D10ラウンド続く。
+      name: ""
+    - _id: Tssh1Gf0hi7BCURz
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 2
+        - 2
+      drawn: false
+      text: 身体症状症：探索者は1D10ラウンドの間、狂気によって視覚や聴覚に異常が生じたり、四肢の1つまたは複数が動かなくなる。
+      name: ""
+    - _id: h1cQG27fvflGg30Z
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 3
+        - 3
+      drawn: false
+      text: 暴力衝動：赤い霧が探索者に降り、1D10ラウンドの間、抑えの利かない暴力と破壊を敵味方を問わず周囲に向かって爆発させる。ndefined
+      name: ""
+    - _id: zMXG3LtqpRAb1Scf
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 4
+        - 4
+      drawn: false
+      text: 偏執症：探索者は1D10ラウンドの間、重い偏執症に襲われる。誰もが探索者に襲い掛かろうとしている。信用できる者はいない。監視されている。裏切ったやつがいる。これはわなだ。
+      name: ""
+    - _id: vhCx1ozlzZFMaVnm
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 5
+        - 5
+      drawn: false
+      text: 重要な人々：探索者のバックストーリーの重要な人々を見直す。探索者はその場にいた人物を、自分にとっての重要な人々だと思い込む。人間関係の性質を考慮した上で、探索者はそれに従って行動する。1D10ラウンド続く。
+      name: ""
+    - _id: LORk9I4sPdIQ3mGJ
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 6
+        - 6
+      drawn: false
+      text: 失神：探索者は失神する。1D10ラウンド後に回復する。
+      name: ""
+    - _id: U36sap6aG3SFJugk
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 7
+        - 7
+      drawn: false
+      text: パニックになって逃亡する：探索者は利用できるあらゆる手段を使って、可能なかぎり遠くへ逃げ出さずにはいられない。それが唯一の車両を奪って仲間を置き去りにすることであっても。探索者は1D10ラウンドの間、逃げ続ける。
+      name: ""
+    - _id: gwzeABqWZwebEx9k
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 8
+        - 8
+      drawn: false
+      text: 身体的ヒステリーもしくは感情爆発：探索者は1D10ラウンドの間、笑ったり、泣いたり、あるいは叫んだりし続け、行動できなくなる。
+      name: ""
+    - _id: lzwrQwGNFmKleetW
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 9
+        - 9
+      drawn: false
+      text: 恐怖症：探索者は新しい恐怖症に陥る。恐怖症表をロールするか、キーパーが恐怖症を1つ選ぶ。恐怖症の原因は存在しなくとも、その探索者は次の1D10ラウンドの間、それがそこにあると思い込む。
+      name: ""
+    - _id: Do7VEh1vQ5MtWyWE
+      flags: {}
+      type: 0
+      img: modules/CoC7ja/icons/svg/other/mad-scientist.svg
+      weight: 1
+      range:
+        - 10
+        - 10
+      drawn: false
+      text: マニア：探索者は新しいマニアに陥る。マニア表（MAコマンド）をロールするか、キーパーがマニアを1つ選ぶ。その探索者は次の1D10ラウンドの間、自分の新しいマニアに没頭しようとする。
+      name: ""
+  formula: 1D10
+  replacement: true
+  displayRoll: true
+  img: icons/svg/d20-grey.svg
+  folder: null
