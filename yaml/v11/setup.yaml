@@ -1,0 +1,332 @@
+- name: 1920年代
+  type: setup
+  _id: dIBz5CrVgni0U00C
+  img: systems/CoC7/assets/icons/cog.svg
+  system:
+    description:
+      value: <p>1920年代のキャラクターの初期設定</p>
+      keeper: ''
+    characteristics:
+      points:
+        enabled: false
+        value: '460'
+      rolls:
+        enabled: true
+        enableIndividualRolls: true
+        str: (3D6)*5
+        con: (3D6)*5
+        siz: (2D6+6)*5
+        dex: (3D6)*5
+        app: (3D6)*5
+        int: (2D6+6)*5
+        pow: (3D6)*5
+        edu: (2D6+6)*5
+        luck: (3D6)*5
+      values:
+        str: null
+        con: null
+        siz: null
+        dex: null
+        app: null
+        int: null
+        pow: null
+        edu: null
+        luck: null
+    monetary:
+      format: decimalLeft
+      symbol: $
+      values:
+      - name: 無一文
+        min: null
+        max: 0
+        cashType: value
+        cashValue: 0.5
+        assetsType: value
+        assetsValue: 0
+        spendingType: value
+        spendingValue: 0.5
+      - name: 貧乏
+        min: 1
+        max: 9
+        cashType: multiplier
+        cashValue: 1
+        assetsType: multiplier
+        assetsValue: 10
+        spendingType: value
+        spendingValue: 2
+      - name: 平均
+        min: 10
+        max: 49
+        cashType: multiplier
+        cashValue: 2
+        assetsType: multiplier
+        assetsValue: 50
+        spendingType: value
+        spendingValue: 10
+      - name: 裕福
+        min: 50
+        max: 89
+        cashType: multiplier
+        cashValue: 5
+        assetsType: multiplier
+        assetsValue: 500
+        spendingType: value
+        spendingValue: 50
+      - name: 富豪
+        min: 90
+        max: 98
+        cashType: multiplier
+        cashValue: 20
+        assetsType: multiplier
+        assetsValue: 2000
+        spendingType: value
+        spendingValue: 250
+      - name: 大富豪
+        min: 99
+        max: null
+        cashType: value
+        cashValue: 50000
+        assetsType: value
+        assetsValue: 5000000
+        spendingType: value
+        spendingValue: 5000
+    source: ''
+    enableCharacterisitics: true
+    items:
+    - i.skill.intimidate
+    - i.skill.fast-talk
+    - i.skill.medicine
+    - i.skill.drive-auto
+    - i.skill.first-aid
+    - i.skill.dodge
+    - i.skill.locksmith
+    - i.skill.appraise
+    - i.skill.mechanical-repair
+    - i.skill.listen
+    - i.skill.fighting-brawl
+    - i.skill.cthulhu-mythos
+    - i.skill.art-craft-any
+    - i.skill.archaeology
+    - i.skill.survival-any
+    - i.skill.natural-world
+    - i.skill.firearms-handgun
+    - i.skill.firearms-rifle-shotgun
+    - i.skill.operate-heavy-machinery
+    - i.skill.ride
+    - i.skill.credit-rating
+    - i.skill.psychology
+    - i.skill.anthropology
+    - i.skill.swim
+    - i.skill.psychoanalysis
+    - i.skill.persuade
+    - i.skill.pilot-any
+    - i.skill.jump
+    - i.skill.track
+    - i.skill.sleight-of-hand
+    - i.skill.fighting-throw
+    - i.skill.climb
+    - i.skill.library-use
+    - i.skill.navigate
+    - i.skill.disguise
+    - i.skill.law
+    - i.skill.language-any
+    - i.skill.language-own
+    - i.skill.charm
+    - i.skill.spot-hidden
+    - i.skill.history
+    - i.skill.accounting
+    - i.skill.stealth
+    - i.skill.occult
+    - i.skill.science-any
+    bioSections:
+    - 容姿の描写
+    - 特徴
+    - イデオロギー／信念
+    - 負傷、傷跡
+    - 重要な人々
+    - 恐怖症、マニア
+    - 意味のある場所
+    - 魔導書、呪文、アーティファクト
+    - 秘蔵の品
+    - 遭遇した超自然の存在
+    backstory: ''
+    attributes: {}
+    properties: {}
+    flags: {}
+  effects: []
+  folder: null
+  flags:
+    CoC7:
+      cocidFlag:
+        eras:
+          standard: true
+        id: i.setup.standard
+        lang: ja
+        priority: 1
+- name: 現代
+  type: setup
+  img: systems/CoC7/assets/icons/cog.svg
+  system:
+    description:
+      value: <p>現代のキャラクターの初期設定</p>
+      keeper: ''
+    characteristics:
+      points:
+        enabled: false
+        value: '460'
+      rolls:
+        enabled: true
+        enableIndividualRolls: true
+        str: (3D6)*5
+        con: (3D6)*5
+        siz: (2D6+6)*5
+        dex: (3D6)*5
+        app: (3D6)*5
+        int: (2D6+6)*5
+        pow: (3D6)*5
+        edu: (2D6+6)*5
+        luck: (3D6)*5
+      values:
+        str: null
+        con: null
+        siz: null
+        dex: null
+        app: null
+        int: null
+        pow: null
+        edu: null
+        luck: null
+    monetary:
+      format: decimalLeft
+      symbol: $
+      values:
+      - name: 無一文
+        min: null
+        max: 0
+        cashType: value
+        cashValue: 10
+        assetsType: value
+        assetsValue: 0
+        spendingType: value
+        spendingValue: 10
+      - name: 貧乏
+        min: 1
+        max: 9
+        cashType: multiplier
+        cashValue: 20
+        assetsType: multiplier
+        assetsValue: 200
+        spendingType: value
+        spendingValue: 40
+      - name: 平均
+        min: 10
+        max: 49
+        cashType: multiplier
+        cashValue: 40
+        assetsType: multiplier
+        assetsValue: 1000
+        spendingType: value
+        spendingValue: 200
+      - name: 裕福
+        min: 50
+        max: 89
+        cashType: multiplier
+        cashValue: 100
+        assetsType: multiplier
+        assetsValue: 10000
+        spendingType: value
+        spendingValue: 1000
+      - name: 富豪
+        min: 90
+        max: 98
+        cashType: multiplier
+        cashValue: 400
+        assetsType: multiplier
+        assetsValue: 40000
+        spendingType: value
+        spendingValue: 5000
+      - name: 大富豪
+        min: 99
+        max: null
+        cashType: value
+        cashValue: 1000000
+        assetsType: value
+        assetsValue: 100000000
+        spendingType: value
+        spendingValue: 1000000
+    source: ''
+    enableCharacterisitics: true
+    items:
+    - i.skill.intimidate
+    - i.skill.fast-talk
+    - i.skill.medicine
+    - i.skill.drive-auto
+    - i.skill.first-aid
+    - i.skill.dodge
+    - i.skill.locksmith
+    - i.skill.appraise
+    - i.skill.mechanical-repair
+    - i.skill.listen
+    - i.skill.fighting-brawl
+    - i.skill.cthulhu-mythos
+    - i.skill.art-craft-any
+    - i.skill.archaeology
+    - i.skill.survival-any
+    - i.skill.natural-world
+    - i.skill.firearms-handgun
+    - i.skill.firearms-rifle-shotgun
+    - i.skill.operate-heavy-machinery
+    - i.skill.credit-rating
+    - i.skill.psychology
+    - i.skill.anthropology
+    - i.skill.swim
+    - i.skill.psychoanalysis
+    - i.skill.persuade
+    - i.skill.pilot-any
+    - i.skill.jump
+    - i.skill.track
+    - i.skill.sleight-of-hand
+    - i.skill.fighting-throw
+    - i.skill.climb
+    - i.skill.library-use
+    - i.skill.navigate
+    - i.skill.disguise
+    - i.skill.law
+    - i.skill.language-any
+    - i.skill.language-own
+    - i.skill.charm
+    - i.skill.spot-hidden
+    - i.skill.history
+    - i.skill.accounting
+    - i.skill.stealth
+    - i.skill.occult
+    - i.skill.science-any
+    - i.skill.computer-use
+    - i.skill.electronics
+    bioSections:
+    - 容姿の描写
+    - 特徴
+    - イデオロギー／信念
+    - 負傷、傷跡
+    - 重要な人々
+    - 恐怖症、マニア
+    - 意味のある場所
+    - 魔導書、呪文、アーティファクト
+    - 秘蔵の品
+    - 遭遇した超自然の存在
+    backstory: ''
+    attributes: {}
+    properties: {}
+    flags: {}
+  effects: []
+  folder: null
+  flags:
+    CoC7:
+      cocidFlag:
+        eras:
+          modern: true
+        id: i.setup.standard
+        lang: ja
+        priority: 1
+    core: {}
+  _id: 0wA36s3KjEAmS4uA
