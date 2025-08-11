@@ -1,0 +1,2381 @@
+---
+- _id: 0CW96pjN3moX6MiA
+  name: ヒプノーシス
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/meditation.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.0CW96pjN3moX6MiA
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: false
+      rarity: true
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.hypnosis
+- _id: 0KVMEYlXmj96Hg8r
+  name: 言いくるめ
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/discussion.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.0KVMEYlXmj96Hg8r
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.fast-talk
+- _id: 0rUZhmuvWnGiAq03
+  name: 応急手当
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/sticking-plaster.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.0rUZhmuvWnGiAq03
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "30"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.first-aid
+- _id: 2NJ3DogsxWVMqeUr
+  name: 射撃 (弓)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/bowman.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.2NJ3DogsxWVMqeUr
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "15"
+    properties:
+      combat: true
+      special: true
+      rarity: false
+      push: false
+      Fighting: false
+      firearm: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.firearms-bow
+- _id: 4qHYlBBt1EbF4DgR
+  name: 近接戦闘 (フレイル)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/flail.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.4qHYlBBt1EbF4DgR
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      combat: true
+      special: true
+      rarity: false
+      push: false
+      Fighting: true
+      firearm: false
+      fighting: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+          darkAges: true
+          darkAgesPulp: true
+          invictus: true
+        priority: 1
+        id: i.skill.fighting-flail
+- _id: 6FqhuAKXfO6lMptC
+  name: 科学 (薬学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/medicines.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.6FqhuAKXfO6lMptC
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.science-pharmacy
+- _id: 6HwjKQGcNn75EPHi
+  name: 科学 (地質学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/planet-core.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.6HwjKQGcNn75EPHi
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          gasLight: true
+          downDarkerTrailsPulp: true
+          downDarkerTrails: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.science-geology
+- _id: 6oM9fULWVvvHSO1U
+  name: 電子工学
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/cpu.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.6oM9fULWVvvHSO1U
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          modern: true
+          modernPulp: true
+        priority: 1
+        id: i.skill.electronics
+- _id: 7Nhb8ENox4QjMb0t
+  name: ナビゲート
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/treasure-map.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.7Nhb8ENox4QjMb0t
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.navigate
+- _id: 8HHFjJXoRN2hgBxf
+  name: 信用
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/wallet.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.8HHFjJXoRN2hgBxf
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "0"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+      noxpgain: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.credit-rating
+- _id: 8p5j2JjSGPdWBCZk
+  name: コンピューター
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/pc.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.8p5j2JjSGPdWBCZk
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          modern: true
+          modernPulp: true
+        priority: 1
+        id: i.skill.computer-use
+- _id: 9Pum9Y2Atd5ug6zz
+  name: 科学 (物理学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/prism.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.9Pum9Y2Atd5ug6zz
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.science-physics
+- _id: 9Z7rRlJ4kLXaJC6k
+  name: 電気修理
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/electrical-resistance.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.9Z7rRlJ4kLXaJC6k
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+        priority: 1
+        id: i.skill.electrical-repair
+- _id: A0NyE5kmHe5FOnq9
+  name: 水泳
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/pool-dive.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.A0NyE5kmHe5FOnq9
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.swim
+- _id: AT5eymQCpQxdye9q
+  name: 射撃 (重火器)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/panzerfaust.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.AT5eymQCpQxdye9q
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: false
+      firearm: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+        priority: 1
+        id: i.skill.firearms-heavy-weapons
+- _id: BRELpaLp238XzXH5
+  name: ダイビング
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/diving-helmet.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.BRELpaLp238XzXH5
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: false
+      rarity: true
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          pulp: true
+          modernPulp: true
+        priority: 1
+        id: i.skill.diving
+- _id: CQY7mhxduGFebAmi
+  name: 射撃 (拳銃)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/walther-ppk.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.CQY7mhxduGFebAmi
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: false
+      firearm: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.firearms-handgun
+- _id: CW0IWXL3plauUGy1
+  name: 機械修理
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/auto-repair.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.CW0IWXL3plauUGy1
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.mechanical-repair
+- _id: DkKL3tUlmx5Zp22E
+  name: 乗馬
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/cavalry.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.DkKL3tUlmx5Zp22E
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.ride
+- _id: E0EfSSzQYmwWrbeD
+  name: 隠密
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/ninja-head.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.E0EfSSzQYmwWrbeD
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+          darkAges: true
+          darkAgesPulp: true
+        priority: 1
+        id: i.skill.stealth
+- _id: E9rcTG3csEG4Huem
+  name: 心理学
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/telepathy.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.E9rcTG3csEG4Huem
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.psychology
+- _id: FwWQNfn382EwfDFt
+  name: 登攀
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/ladders-platform.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.FwWQNfn382EwfDFt
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.climb
+- _id: H4WNjYG7llDZtXwv
+  name: 歴史
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/scroll-quill.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.H4WNjYG7llDZtXwv
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.history
+- _id: HDm4U3h0GzJOWuWd
+  name: 射撃 (マシンガン)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/machine-gun.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.HDm4U3h0GzJOWuWd
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: false
+      firearm: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.firearms-machine-gun
+- _id: HN6sbF97tFoe30mU
+  name: 科学 (生物学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/dna2.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.HN6sbF97tFoe30mU
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+        priority: 1
+        id: i.skill.science-biology
+- _id: HUMkjdW611GCpLt4
+  name: 近接戦闘 (斧)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/sharp-axe.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.HUMkjdW611GCpLt4
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "15"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: true
+      firearm: false
+      fighting: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.fighting-axe
+- _id: HbucA5Kk0d0uFRxy
+  name: 聞き耳
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/human-ear.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.HbucA5Kk0d0uFRxy
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.listen
+- _id: I7CWN0BbRpoIvfq6
+  name: 芸術／製作 (絵画)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/mona-lisa.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.I7CWN0BbRpoIvfq6
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      push: true
+      special: true
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+          darkAgesPulp: true
+          darkAges: true
+          invictus: true
+        priority: 1
+        id: i.skill.art-craft-fine-art
+- _id: IAdLwI8enGyWT6p8
+  name: 科学 (動物学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/animal-skull.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.IAdLwI8enGyWT6p8
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.science-zoology
+- _id: J64juR0msBUXvhTr
+  name: 動物使い
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/jumping-dog.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.J64juR0msBUXvhTr
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      rarity: true
+      special: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.animal-handling
+- _id: JFeTpQwuaTYBmLal
+  name: 射撃 (サブマシンガン)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/thompson-m1928.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.JFeTpQwuaTYBmLal
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "15"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: false
+      firearm: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+        priority: 1
+        id: i.skill.firearms-submachine-gun
+- _id: JZUHBDwlowUDf18G
+  name: 近接戦闘 (刀剣)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/pointy-sword.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.JZUHBDwlowUDf18G
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: true
+      firearm: false
+      fighting: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.fighting-sword
+- _id: K758AJaZfwHl94c2
+  name: 近接戦闘 (絞殺ひも)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/suicide.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.K758AJaZfwHl94c2
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "15"
+    properties:
+      combat: true
+      special: true
+      rarity: false
+      push: false
+      Fighting: true
+      firearm: false
+      fighting: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.fighting-garrote
+- _id: KenfdXHN02NKca6S
+  name: 科学 (天文学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/observatory.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.KenfdXHN02NKca6S
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          gasLight: true
+          downDarkerTrailsPulp: true
+          regencyPulp: true
+          regency: true
+        priority: 1
+        id: i.skill.science-astronomy
+- _id: MDBvDDlP5IzOOnOC
+  name: 回避
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/dodging.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.MDBvDDlP5IzOOnOC
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: 1/2*@DEX
+    properties:
+      special: false
+      rarity: false
+      push: false
+      combat: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.dodge
+- _id: MWC32iPsWdiFxCrk
+  name: 伝承 (専門分野を選ぶ)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/ufo.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.MWC32iPsWdiFxCrk
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: true
+      push: true
+      combat: false
+      requiresname: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.lore-any
+- _id: MeleogcP07f9rJ1O
+  name: 近接戦闘 (投擲)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/throwing-ball.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.MeleogcP07f9rJ1O
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: true
+      Fighting: false
+      firearm: false
+      fighting: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.fighting-throw
+- name: 芸術／製作 (専門分野を選ぶ)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/pencil-brush.svg
+  _id: OELrzDhkVPJ8Uogf
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.OELrzDhkVPJ8Uogf
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      combat: false
+      fighting: false
+      firearm: false
+      special: true
+      push: true
+      requiresname: true
+  flags:
+    CoC7:
+      cocidFlag:
+        id: i.skill.art-craft-any
+        lang: ja
+        priority: 1
+        eras: {}
+- _id: ObgfYtNCMv4MlgbO
+  name: 考古学
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/ancient-ruins.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.ObgfYtNCMv4MlgbO
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.archaeology
+- _id: OhbBGAkOrr1409Oq
+  name: 跳躍
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/jump-across.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.OhbBGAkOrr1409Oq
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.jump
+- _id: PZOkZrOJJwK7uO2s
+  name: 読唇術
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/lips.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.PZOkZrOJJwK7uO2s
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      push: true
+      special: false
+      rarity: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.read-lips
+- _id: Q8BDb3YnQ3i3xjd4
+  name: 科学 (法医学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/morgue-feet.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.Q8BDb3YnQ3i3xjd4
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.science-forensics
+- _id: RIQSmuWCMPYYjUtg
+  name: 手さばき
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/snatch.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.RIQSmuWCMPYYjUtg
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.sleight-of-hand
+- _id: Rcl3EJFkPbYouMbS
+  name: 芸術／製作 (演劇)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/drama-masks.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.Rcl3EJFkPbYouMbS
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+          downDarkerTrailsPulp: true
+          downDarkerTrails: true
+          darkAgesPulp: true
+          darkAges: true
+          invictus: true
+        priority: 1
+        id: i.skill.art-craft-acting
+- _id: SPY7wJwnkG4anTwM
+  name: 説得
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/confrontation.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.SPY7wJwnkG4anTwM
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.persuade
+- _id: UPSL4EYXndGwNPhP
+  name: 図書館
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/bookshelf.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.UPSL4EYXndGwNPhP
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.library-use
+- _id: UZoCHFgYoXCbdoY6
+  name: 操縦 (専門分野を選ぶ)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/plane-pilot.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.UZoCHFgYoXCbdoY6
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      push: true
+      special: true
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+          darkAgesPulp: true
+          darkAges: true
+          invictus: true
+        priority: 1
+        id: i.skill.pilot-any
+- _id: WTi5Q8fFYGqFDDam
+  name: 人類学
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/caveman.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.WTi5Q8fFYGqFDDam
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.anthropology
+- _id: Xy7GNIbB3B0SqgtM
+  name: 追跡
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/footsteps.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.Xy7GNIbB3B0SqgtM
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.track
+- _id: YotlGwVZUtNvZJg1
+  name: 自然
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/plants-and-animals.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.YotlGwVZUtNvZJg1
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.natural-world
+- _id: Yu2CFYCkaNw3VBsH
+  name: 芸術／製作 (写真術)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/photo-camera.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.Yu2CFYCkaNw3VBsH
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.art-craft-photography
+- _id: Z7C3nynZIXiFXmrF
+  name: 経理
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/strongbox.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.Z7C3nynZIXiFXmrF
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.accounting
+- _id: ZDZMcoLOxhvcqvMT
+  name: 科学 (気象学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/sun-cloud.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.ZDZMcoLOxhvcqvMT
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      push: true
+      special: true
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          gasLight: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          regencyPulp: true
+          regency: true
+        priority: 1
+        id: i.skill.science-meteorology
+- _id: ZZXhgUnol1QMCUJB
+  name: 法律
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/scales.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.ZZXhgUnol1QMCUJB
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.law
+- _id: ZtxEbrCNxPbTqACu
+  name: 言語 (母国語)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/conversation.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.ZtxEbrCNxPbTqACu
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "@EDU"
+    properties:
+      push: true
+      special: true
+      rarity: false
+      combat: false
+      picknameonly: false
+      requiresname: true
+      keepbasevalue: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.language-own
+- _id: a8iNFKhWVnHkOCVN
+  name: 射撃 (ライフル／ショットガン)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/winchester-rifle.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.a8iNFKhWVnHkOCVN
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "25"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: false
+      firearm: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.firearms-rifle-shotgun
+- _id: f8ExwWlSUGhNmnVe
+  name: 重機械操作
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/bulldozer.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.f8ExwWlSUGhNmnVe
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.operate-heavy-machinery
+- name: 科学 (専門分野を選ぶ)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/materials-science.svg
+  _id: feO11BbYoFNy92HQ
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.feO11BbYoFNy92HQ
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      combat: false
+      fighting: false
+      firearm: false
+      special: true
+      requiresname: true
+      push: true
+  flags:
+    CoC7:
+      cocidFlag:
+        id: i.skill.science-any
+        lang: ja
+        priority: 1
+        eras: {}
+- _id: gX0oxNXQBcZq24LG
+  name: 科学 (植物学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/fruiting.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.gX0oxNXQBcZq24LG
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          gasLight: true
+          downDarkerTrails: true
+          regencyPulp: true
+          downDarkerTrailsPulp: true
+          regency: true
+        priority: 1
+        id: i.skill.science-botany
+- _id: gihGN2AcqDpGPOe2
+  name: 科学 (化学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/chemical-drop.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.gihGN2AcqDpGPOe2
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.science-chemistry
+- _id: gzl9deGCpmZNDjUs
+  name: 言語 (専門分野を選ぶ)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/conversation.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.gzl9deGCpmZNDjUs
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      push: true
+      rarity: false
+      combat: false
+      requiresname: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.language-any
+- _id: hR4F1soQKk56BsE6
+  name: 近接戦闘 (むち)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/whip.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.hR4F1soQKk56BsE6
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: true
+      firearm: false
+      fighting: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.fighting-whip
+- _id: iMNZslICSfOBrhnv
+  name: オカルト
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/crystal-ball.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.iMNZslICSfOBrhnv
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.occult
+- _id: iWEzROSFc6QA2Qd7
+  name: 科学 (数学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/abacus.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.iWEzROSFc6QA2Qd7
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          gasLight: true
+          downDarkerTrailsPulp: true
+          regencyPulp: true
+          regency: true
+          downDarkerTrails: true
+        priority: 1
+        id: i.skill.science-mathematics
+- _id: iorK6UqzpjU4WR38
+  name: 爆破
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/mushroom-cloud.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.iorK6UqzpjU4WR38
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      rarity: true
+      special: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.demolitions
+- _id: j4vj4HUviZd6TAKz
+  name: 鑑定
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/price-tag.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.j4vj4HUviZd6TAKz
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.appraise
+- _id: jbaeBCTsMiw0ut8O
+  name: 芸術／製作 (文書偽造)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/passport.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.jbaeBCTsMiw0ut8O
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+          darkAges: true
+          darkAgesPulp: true
+          invictus: true
+        priority: 1
+        id: i.skill.art-craft-forgery
+- _id: jtcQKVVfZ3TGCdAD
+  name: 射撃 (火炎放射器)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/flamethrower-soldier.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.jtcQKVVfZ3TGCdAD
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      combat: true
+      special: true
+      rarity: false
+      push: false
+      Fighting: false
+      firearm: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+        priority: 1
+        id: i.skill.firearms-flamethrower
+- _id: kKafbgrncOGqYwjH
+  name: 変装
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/domino-mask.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.kKafbgrncOGqYwjH
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "5"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+          darkAges: true
+          darkAgesPulp: true
+        priority: 1
+        id: i.skill.disguise
+- _id: keyAD0YXeAafdvmi
+  name: 近接戦闘 (格闘)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/punch-blast.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.keyAD0YXeAafdvmi
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "25"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: true
+      firearm: false
+      fighting: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.fighting-brawl
+- _id: m4C6RDUbfHZwVucS
+  name: サバイバル (専門分野を選ぶ)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/island.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.m4C6RDUbfHZwVucS
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+      requiresname: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.survival-any
+- _id: otgWxSXPtfSKtzd9
+  name: 魅惑
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/charm.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.otgWxSXPtfSKtzd9
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "15"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.charm
+- _id: rfO2kgQTYP2X2lL3
+  name: 威圧
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/arrest.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.rfO2kgQTYP2X2lL3
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "15"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.intimidate
+- _id: rzihAJYn5Mf9Bf6N
+  name: 近接戦闘 (槍)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/spears.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.rzihAJYn5Mf9Bf6N
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: true
+      firearm: false
+      fighting: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.fighting-spear
+- _id: s7Yhk0flkG1B1lWY
+  name: 鍵開け
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/lock-picking.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.s7Yhk0flkG1B1lWY
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          gasLight: true
+          regency: true
+          regencyPulp: true
+        priority: 1
+        id: i.skill.locksmith
+- _id: sEFL2THbIkUCFp2c
+  name: 科学 (工学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/concrete-bag.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.sEFL2THbIkUCFp2c
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          gasLight: true
+          downDarkerTrails: true
+          regency: true
+          regencyPulp: true
+          downDarkerTrailsPulp: true
+        priority: 1
+        id: i.skill.science-engineering
+- _id: sJjQGgjj6gohyaMd
+  name: 精神分析
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/knockout.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.sJjQGgjj6gohyaMd
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      push: true
+      special: false
+      rarity: false
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.psychoanalysis
+- _id: tA5sEnhUyrzdCEu4
+  name: 運転 (自動車)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/steering-wheel.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.tA5sEnhUyrzdCEu4
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "20"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+      requiresname: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+        priority: 1
+        id: i.skill.drive-auto
+- _id: tRg3Zh07008k7xpb
+  name: 射撃 (砲)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/field-gun.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.tRg3Zh07008k7xpb
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      rarity: true
+      special: true
+      push: false
+      combat: true
+      Fighting: false
+      firearm: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          downDarkerTrailsPulp: true
+          regency: true
+          downDarkerTrails: true
+          regencyPulp: true
+          gasLight: true
+        priority: 1
+        id: i.skill.firearms-artillery
+- _id: vdTRwJvIbXasRUxC
+  name: 目星
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/magnifying-glass.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.vdTRwJvIbXasRUxC
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "25"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.spot-hidden
+- _id: yo3S2tR0SkfEisbe
+  name: クトゥルフ神話
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/curled-tentacle.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.yo3S2tR0SkfEisbe
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "0"
+    properties:
+      special: false
+      rarity: false
+      push: false
+      combat: false
+      noxpgain: true
+      noadjustments: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.cthulhu-mythos
+- _id: zM1rVfUxTAX7hRys
+  name: 科学 (暗号学)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/computing.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.zM1rVfUxTAX7hRys
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: true
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+          gasLight: true
+          downDarkerTrails: true
+          downDarkerTrailsPulp: true
+          regencyPulp: true
+          regency: true
+        priority: 1
+        id: i.skill.science-cryptography
+- _id: ziCzgTCp2g2sQzfD
+  name: 医学
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/caduceus.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.ziCzgTCp2g2sQzfD
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "1"
+    properties:
+      special: false
+      rarity: false
+      push: true
+      combat: false
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras: {}
+        priority: 1
+        id: i.skill.medicine
+- _id: zzaYcf3NQmgmOwut
+  name: 近接戦闘 (チェーンソー)
+  type: skill
+  img: modules/CoC7ja/icons/svg/skill/chainsaw.svg
+  folder: null
+  sort: 0
+  uuid: Compendium.CoC7ja.skill.Item.zzaYcf3NQmgmOwut
+  system:
+    description:
+      value: <p>新クトゥルフ神話TRPGルールブックを参照</p>
+    base: "10"
+    properties:
+      special: true
+      rarity: false
+      push: false
+      combat: true
+      Fighting: true
+      firearm: false
+      fighting: true
+  flags:
+    CoC7:
+      cocidFlag:
+        lang: ja
+        eras:
+          standard: true
+          modern: true
+          modernPulp: true
+          pulp: true
+        priority: 1
+        id: i.skill.fighting-chainsaw
